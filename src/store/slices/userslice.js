@@ -10,7 +10,7 @@ const userSlice = createSlice({
             state.user = action.payload;
         }
     }
-});
+}); 
 
 export const { login } = userSlice.actions;
 export default userSlice.reducer;
